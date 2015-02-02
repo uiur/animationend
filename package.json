@@ -4,7 +4,8 @@
   "description": "animationend",
   "main": "index.js",
   "scripts": {
-    "test": "zuul -- test.js"
+    "test": "zuul -- test.js",
+    "test-local": "zuul --local -- test.js"
   },
   "author": "Kazato Sugimoto",
   "license": "MIT",
