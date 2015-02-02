@@ -10,6 +10,7 @@ The function returns ES6 Promise.
 ``` javascript
 var animationEnd = require('animationend')
 
+var element = document.getElementById('id')
 animate(element)
 
 animationEnd(element).then(function(event) {
