@@ -19,5 +19,9 @@
   "package": {
     "type": "git",
     "url": "git@github.com:uiureo/animationend.git"
-  }
+  },
+  "keywords": [
+    "transition",
+    "animation"
+  ]
 }
