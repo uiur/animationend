@@ -1,7 +1,7 @@
 {
   "name": "animationend",
   "version": "0.0.1",
-  "description": "animationend",
+  "description": "Detect when CSS animations have ended",
   "main": "index.js",
   "scripts": {
     "test": "zuul -- test.js",

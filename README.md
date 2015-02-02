@@ -3,7 +3,9 @@
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/uiureo-animationend.svg)](https://saucelabs.com/u/uiureo-animationend)
 
-Wait for CSS transition/animation end
+Detect when CSS transitions/animations have ended. Cross-browser tested.
+
+The function returns ES6 Promise.
 
 ``` javascript
 var animationEnd = require('animationend')
@@ -17,6 +19,11 @@ animationEnd(element).then(function(event) {
 animationEnd(element, function(event) {
   // also you can use a normal callback
 })
+```
+
+## Installation
+```
+npm install --save animationend
 ```
 
 ## License
