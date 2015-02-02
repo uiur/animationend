@@ -14,5 +14,9 @@
   },
   "devDependencies": {
     "zuul": "~1.17.0"
+  },
+  "package": {
+    "type": "git",
+    "url": "git@github.com:uiureo/animationend.git"
   }
 }
