@@ -2,7 +2,7 @@ var test = require('tape')
   , animationEnd = require('./index.js')
 
 test('transitionend', function(t) {
-  t.timeoutAfter(1000)
+  t.timeoutAfter(2000)
 
   element = document.createElement('div')
   document.body.appendChild(element)
@@ -41,7 +41,7 @@ function injectCSS(text) {
 }
 
 test('animationend', function(t) {
-  t.timeoutAfter(1000)
+  t.timeoutAfter(2000)
 
   injectCSS(animationCSS)
 
