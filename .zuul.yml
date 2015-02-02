@@ -1,7 +1,12 @@
 ui: tape
 browsers:
   - name: firefox
-    platform: linux
-    version: 30..latest
+    version: 32..latest
   - name: chrome
-    version: 30..beta
+    version: 38..latest
+  - name: ie
+    version: 10..latest
+  - name: iphone
+    version: latest
+  - name: android
+    version: latest

@@ -4,12 +4,15 @@
   "description": "animationend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "zuul --local -- test.js"
   },
   "author": "Kazato Sugimoto",
   "license": "MIT",
   "dependencies": {
     "es6-promise": "^2.0.1",
     "tape": "~3.5.0"
+  },
+  "devDependencies": {
+    "zuul": "~1.17.0"
   }
 }
