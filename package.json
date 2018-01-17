@@ -10,7 +10,7 @@
   "author": "Kazato Sugimoto",
   "license": "MIT",
   "dependencies": {
-    "es6-promise": "^2.0.1",
+    "core-js": "^2.5.3",
     "tape": "~3.5.0"
   },
   "devDependencies": {
