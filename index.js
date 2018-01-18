@@ -1,4 +1,4 @@
-var Promise = require('es6-promise').Promise
+var Promise = require('core-js/es6/promise');
 
 var TRANSITIONEND_EVENTS = {
   transition: 'transitionend',
